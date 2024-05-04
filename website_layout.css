@@ -1,0 +1,118 @@
+
+/*
+	Comment
+*/
+
+body > header > nav#Main_Topics li{
+	width: 20%;
+}
+nav#Main_Topics {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+nav#Main_Topics li {
+	display: inline;
+}
+
+#container {
+	display: inline-block;
+}
+h1 {
+	font-size: 3em;
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 22px;
+	line-height: 24px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+div#Introduction, #Gimli_Intro, #Gimli_Shelter, #painting_info, #hiking_info{
+	display: flex;
+	align-items: center;
+	justify-content: center
+	
+}
+
+h3,h4, p{
+	color: aliceblue;
+	line-height: 1.3em;
+	text-align: left;
+	width: 100%;
+}
+
+#caption {
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 14px;
+	margin-left: 20px;
+}
+
+
+
+div#selfie-img{
+	float: left;
+	width: 35%;
+	padding-right: 20px;
+}
+
+#Gimli_Hike{
+	float: left;
+	width: 35%;
+}
+
+#Gimli_Adopt{
+	float: right;
+	width: 35%;
+}
+
+
+div#selfie-img img{
+	display: block;
+	width: 100%;
+}
+
+#Gimli_Hike img{
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+ #Gimli_Adopt img{
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+div#text {
+	width: 65%;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div#Gimli_text_A {
+	float: left;
+	width: 65%;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+div#Gimli_text_B {
+	float: right;
+	width: 65%;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
